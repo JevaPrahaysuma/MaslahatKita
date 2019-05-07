@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "114375939393",
+    "firebase_url": "https://maslahatkita-45637.firebaseio.com",
+    "project_id": "maslahatkita-45637",
+    "storage_bucket": "maslahatkita-45637.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114375939393:android:dfdec0bf3b73aa69",
+        "android_client_info": {
+          "package_name": "com.example.jeva.maslahatkita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114375939393-fur158pa93mg2091bprklddb906s1gh2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jeva.maslahatkita",
+            "certificate_hash": "8ea05f98cec004b52b21bbe2d2300b1da4663d9a"
+          }
+        },
+        {
+          "client_id": "114375939393-pc41v4ji6ckqf4iohr5qhcddqp76k6p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB39gz3UTsS-3coFtYTzmEVWcthHT0vZBQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114375939393-pc41v4ji6ckqf4iohr5qhcddqp76k6p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
