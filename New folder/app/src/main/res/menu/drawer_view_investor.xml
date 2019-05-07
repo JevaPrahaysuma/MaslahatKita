@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_market_place"
+            android:title="Market Place"
+            android:icon="@drawable/ic_market"/>
+        <item
+            android:id="@+id/nav_data_pribadi"
+            android:title="Data Pribadi"
+            android:icon="@drawable/icon_profil"/>
+        <item
+            android:id="@+id/nav_rekening"
+            android:title="Rekening Deposit"
+            android:icon="@drawable/ic_dompet"/>
+    </group>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_investasi"
+                    android:title="Investasi" />
+            </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log Out" />
+    </group>
+</menu>

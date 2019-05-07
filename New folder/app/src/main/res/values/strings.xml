@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MaslahatKita</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string-array name="pilihan_user">
+        <item>Investor</item>
+        <item>Mitra usaha</item>
+    </string-array>
+</resources>

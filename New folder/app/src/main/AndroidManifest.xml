@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jeva.maslahatkita">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    android.permission.WRITE_EXTERNAL_STORAGE
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>w
+        </activity>
+        <activity android:name=".Activity.MitraActivity">
+
+        </activity>
+        <activity android:name=".Activity.PengajuanMitraActivity"></activity>
+        <activity android:name=".Activity.PengajuanInvestorActivity"></activity>
+        <activity android:name=".Activity.AdminActivity">
+
+        </activity>
+
+        <activity android:name=".Activity.InvestorActivity"></activity>
+        <activity android:name=".Activity.PengajuanUsahaActivity"></activity>
+        <activity android:name=".Fragment.VirtualAccountForMitraFragment"></activity>
+        <activity android:name=".Activity.DitailMarketPlaceInvestorActivity"></activity>
+        <activity android:name=".Activity.DitailUserManagementActivity"></activity>
+        <activity android:name=".Activity.DitailVerifikasiInvestorActivity"></activity>
+        <activity android:name=".Activity.DitailVerifikasiPengajuanUsahaActivity"></activity>
+        <activity android:name=".Activity.DitailVerifikasiMitraActivity"></activity>
+        <activity android:name=".Activity.DitailMitraManagementActivity"></activity>
+        <activity android:name=".Activity.DetailInvestorManagementActivity"></activity>
+        <activity android:name=".Activity.DitailPengajuanBaruActivity"></activity>
+        <activity android:name=".Activity.PelaporanUsahaActivity"></activity>
+        <activity android:name=".Activity.MonitoringUsahaActivity"></activity>
+        <activity android:name=".Activity.DitailPengajuanUsahaDiterimaActivity"></activity>
+        <activity android:name=".Activity.DitailPengajuanUsahaDitolakActivity"></activity>
+    </application>
+
+</manifest>

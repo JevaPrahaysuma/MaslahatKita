@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user_management"
+            android:title="User Management" />
+        <item
+            android:id="@+id/nav_investor_management"
+            android:title="Investor Management" />
+        <item
+            android:id="@+id/nav_mitra_management"
+            android:title="Mitra Management" />
+    </group>
+    <item android:title="Verifikasi">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_v_investor"
+                    android:title="Verifikasi Investor" />
+                <item
+                    android:id="@+id/nav_v_mitra_usaha"
+                    android:title="Verifikasi Mitra Usaha" />
+                <item
+                    android:id="@+id/nav_v_pengajuan_usaha"
+                    android:title="Verifikasi Pengajuan Usaha" />
+                <item
+                    android:id="@+id/nav_v_investasi"
+                    android:title="Verifikasi Investasi" />
+            </group>
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log Out" />
+    </group>
+</menu>

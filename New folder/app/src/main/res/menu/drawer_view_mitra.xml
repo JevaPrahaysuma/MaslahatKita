@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/icon_profil"
+            android:title="Data Pribadi" />
+    </group>
+    <item android:title="Pengajuan Usaha">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_pengajuan_baru"
+                    android:title="Pengajuan Baru" />
+                <item
+                    android:id="@+id/nav_pengajuan_ditolak"
+                    android:title="Pengajuan Di Tolak" />
+                <item
+                    android:id="@+id/nav_pengajuan_diterima"
+                    android:title="Pengajuan Di Terima" />
+                <item
+                    android:id="@+id/nav_virtual_account"
+                    android:title="Monitoring Usaha" />
+            </group>
+        </menu>
+    </item>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Log Out" />
+    </group>
+</menu>
